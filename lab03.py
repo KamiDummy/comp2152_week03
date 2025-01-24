@@ -1,3 +1,4 @@
+import random
 # dice options
 diceOptions  = list(range(1, 7))
 
@@ -20,3 +21,5 @@ def  get_combat_strength(prompt) :
 
 combatStrength = get_combat_strength("Enter your combat strength (1-6)")
 monsterStrength = get_combat_strength("Enter monster combat strength (1-6)")
+
+for j in range(1, 21, 2):
