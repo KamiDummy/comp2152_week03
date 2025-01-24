@@ -7,7 +7,7 @@ weapons = ["fist", "knife", "Club", "Gun", "Bomb", "Nuclear Bomb"]
 # Diplsay available weapons 
 print ("Available weapons: ", ', '.join(weapons))
 
-def  get_combat_strength(prompt) {
+def  get_combat_strength(prompt) :
     while True:
         try:
             value = int(input(prompt))
@@ -17,4 +17,6 @@ def  get_combat_strength(prompt) {
                 print ("value invalid, me wants 1-6")
         except ValueError:
             print("Invalid input")
-}
+
+combatStrength = get_combat_strength("Enter your combat strength (1-6)")
+monsterStrength = get_combat_strength("Enter monster combat strength (1-6)")
