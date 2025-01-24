@@ -32,6 +32,7 @@ for j in range(1, 21, 2):
     heroTotal = combatStrength + heroRoll
     monsterRoll = monsterStrength + monsterRoll
 
+    print(f"Round {round}")
     print (f"\nHerro rolled {heroRoll} and got {heroWeapon}")
     print (f"\nHerro rolled {monsterRoll} and got {monsterWeapon}")
     print (f"\nHero total {heroTotal}")
@@ -44,5 +45,6 @@ for j in range(1, 21, 2):
         print("Tie")
     else:
         print("Monster wins")
+
 if j != 11:
     print(f"\nBattle concluded after 20 rounds!")
