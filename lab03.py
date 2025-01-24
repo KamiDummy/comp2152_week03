@@ -37,4 +37,10 @@ for j in range(1, 21, 2):
     print (f"\nHero total {heroTotal}")
     print (f"\nHero total {monsterRoll}")
 
-    
+    # winner determination
+    if heroTotal > monsterRoll:
+        print("hero wins")
+    if heroTotal == monsterRoll:
+        print("Tie")
+    else:
+        print("Monster wins")
