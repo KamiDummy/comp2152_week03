@@ -33,10 +33,10 @@ for j in range(1, 21, 2):
     monsterRoll = monsterStrength + monsterRoll
 
     print(f"Round {round}")
-    print (f"\nHerro rolled {heroRoll} and got {heroWeapon}")
-    print (f"\nHerro rolled {monsterRoll} and got {monsterWeapon}")
+    print (f"ero rolled {heroRoll} and got {heroWeapon}")
+    print (f"Monster rolled {monsterRoll} and got {monsterWeapon}")
     print (f"\nHero total {heroTotal}")
-    print (f"\nMonster total {monsterRoll}")
+    print (f"Monster total {monsterRoll}")
 
     # winner determination
     if heroTotal > monsterRoll:
