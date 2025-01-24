@@ -36,7 +36,7 @@ for j in range(1, 21, 2):
     print (f"\nHerro rolled {heroRoll} and got {heroWeapon}")
     print (f"\nHerro rolled {monsterRoll} and got {monsterWeapon}")
     print (f"\nHero total {heroTotal}")
-    print (f"\Monster total {monsterRoll}")
+    print (f"\nMonster total {monsterRoll}")
 
     # winner determination
     if heroTotal > monsterRoll:
