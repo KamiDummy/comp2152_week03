@@ -26,5 +26,15 @@ for j in range(1, 21, 2):
     heroRoll = random.choice(diceOptions)
     monsterRoll = random.choice(diceOptions)
 
-    heroWeapon = weapons[heroRoll -1]
+    heroWeapon = weapons[heroRoll - 1]
     monsterWeapon = weapons[monsterRoll - 1]
+
+    heroTotal = combatStrength + heroRoll
+    monsterRoll = monsterStrength + monsterRoll
+
+    print (f"\nHerro rolled {heroRoll} and got {heroWeapon}")
+    print (f"\nHerro rolled {monsterRoll} and got {monsterWeapon}")
+    print (f"\nHero total {heroTotal}")
+    print (f"\nHero total {monsterRoll}")
+
+    
